@@ -4,8 +4,7 @@
 ![Ansible Role](https://img.shields.io/ansible/role/36274?logo=ansible)
 ![Ansible Quality Score](https://img.shields.io/ansible/quality/36274?logo=ansible)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-![Github pipeline status](https://github.com/Pandemonium1986/ansible-role-helm/workflows/Molecule:%20Github%20actions%20pipeline/badge.svg)
-![GitHub release](https://img.shields.io/github/release/Pandemonium1986/ansible-role-init.svg?logo=github)
+![Sample workflow](https://github.com/Pandemonium1986/template/workflows/Sample%20workflow/badge.svg)![GitHub release](https://img.shields.io/github/release/Pandemonium1986/ansible-role-init.svg?logo=github)
 ![Github license](https://img.shields.io/github/license/Pandemonium1986/ansible-role-init.svg?logo=github)
 
 One Paragraph of project description goes here
