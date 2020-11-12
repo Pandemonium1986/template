@@ -1,10 +1,12 @@
 # Template
 
+![Ansible Collection](https://img.shields.io/badge/collection-pandemonium1986.k8s__toolbox-blue?logo=ansible)
 ![Ansible Role](https://img.shields.io/ansible/role/36274?logo=ansible)
-![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/Pandemonium1986/ansible-role-init?logo=gitlab)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/36274?logo=ansible)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+![Github pipeline status](https://github.com/Pandemonium1986/ansible-role-helm/workflows/Molecule:%20Github%20actions%20pipeline/badge.svg)
 ![GitHub release](https://img.shields.io/github/release/Pandemonium1986/ansible-role-init.svg?logo=github)
 ![Github license](https://img.shields.io/github/license/Pandemonium1986/ansible-role-init.svg?logo=github)
-![Ansible Quality Score](https://img.shields.io/ansible/quality/36274?logo=ansible)
 
 One Paragraph of project description goes here
 
@@ -71,6 +73,22 @@ Add additional notes about how to deploy this on a live system
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+##### Pre Committing
+
+This repository use [pre-commit](https://pre-commit.com) to manage commit-msg, pre-commit and pre-push hooks (if necessary).
+Be sure to install them before any push.
+
+```sh
+cd MY_REPO && \
+pre-commit install --hook-type commit-msg && \
+pre-commit install --hook-type pre-push && \
+pre-commit install
+```
+
+For more info see this [cheatsheet](https://github.com/Pandemonium1986/cheatsheet/blob/main/Commit.md)
+
+Also every commit MUST follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Versioning
 
