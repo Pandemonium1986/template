@@ -23,7 +23,7 @@ labels:
     color:                               d73a4a
     description:                         Something isn't working
   - name:                                documentation
-    color:                               0075ca
+    color:                               1B9421
     description:                         Improvements or additions to documentation
   - name:                                duplicate
     color:                               cfd3d7
