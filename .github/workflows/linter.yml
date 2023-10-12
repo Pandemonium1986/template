@@ -14,11 +14,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow-linter:
+  call-wkflw-linter:
     permissions:
       contents: read
       packages: read
       statuses: write
-    uses: pandemonium1986/.github/.github/workflows/linter.yml@main
+    name: "Rewkflw: GitHub Super Linter"
+    uses: pandemonium1986/.github/.github/workflows/rewkflw-linter.yml@main
     secrets:
       github-token: inherit
